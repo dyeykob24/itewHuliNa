@@ -45,36 +45,36 @@ fun MainScreen() {
             Text("Student 1")
         }
 
-        Button(onClick = {
-            context.startActivity(
-                Intent(context, Student2Activity::class.java)
-            )
-        }) {
-            Text("Student 2")
-        }
-
-        Button(onClick = {
-            context.startActivity(
-                Intent(context, Student3Activity::class.java)
-            )
-        }) {
-            Text("Student 3")
-        }
-
-        Button(onClick = {
-            context.startActivity(
-                Intent(context, Student4Activity::class.java)
-            )
-        }) {
-            Text("Student 4")
-        }
-
-        Button(onClick = {
-            context.startActivity(
-                Intent(context, Student5Activity::class.java)
-            )
-        }) {
-            Text("Student 5")
-        }
+//        Button(onClick = {
+//            context.startActivity(
+//                Intent(context, Student2Activity::class.java)
+//            )
+//        }) {
+//            Text("Student 2")
+//        }
+//
+//        Button(onClick = {
+//            context.startActivity(
+//                Intent(context, Student3Activity::class.java)
+//            )
+//        }) {
+//            Text("Student 3")
+//        }
+//
+//        Button(onClick = {
+//            context.startActivity(
+//                Intent(context, Student4Activity::class.java)
+//            )
+//        }) {
+//            Text("Student 4")
+//        }
+//
+//        Button(onClick = {
+//            context.startActivity(
+//                Intent(context, Student5Activity::class.java)
+//            )
+//        }) {
+//            Text("Student 5")
+//        }
     }
 }
